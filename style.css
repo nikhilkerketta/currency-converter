@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    /* text-align: center; */
+    /* justify-content: center; */
+}
+body{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    background-color: #FFCB77;
+}
+main{
+    display: inline-block;
+    padding:50px 50px 50px 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 2rem;
+}
+h1{
+    margin-bottom: 30px;
+}
+form select,button{
+    width:100%;
+    border:none;
+    outline:none;
+}
+input{
+    width: 300px;
+}
+input{
+    height: 30px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+.from-to{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+p{
+    text-align: left;
+}
+.msg{
+    text-align: left;
+    margin: 20px 0 20px 0;
+    font-weight: bold ;
+}
+.select-container{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+    /* background-color: pink; */
+
+}
+select{
+    border-radius: 5px;
+}
+.exchange{
+    margin-left:40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+
+button{
+    height: 30px;
+    border-radius: 5px;
+    color:white;
+    background-color: #227C9D;
+}
